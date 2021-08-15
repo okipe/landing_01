@@ -1,4 +1,32 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.hero {
+  background-image: linear-gradient(120deg, rgba(166, 192, 254, 0.692) 0%, rgba(246, 128, 132, 0.698) 70%), url("../img/header.jpg");
+  width: 100%;
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+}
+
+.text-hero {
+  height: 500px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
 }
